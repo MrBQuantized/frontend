@@ -1,9 +1,3 @@
-Yes, absolutely — if `react-app/`, `mini_project/`, and `portfolio/` are standalone projects (not part of the main learning structure or tracked as submodules), it's cleaner to omit them from the README to avoid confusion.
-
-Here's the updated README with those removed:
-
----
-
 # Frontend Learning Repository
 
 A personal collection of frontend practice exercises and experiments covering the fundamentals of web development — from HTML/CSS and vanilla JavaScript to TypeScript.
