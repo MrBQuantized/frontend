@@ -1,0 +1,144 @@
+/* ============================================================= */
+/* Basics */
+/* ============================================================= */
+ 
+/* body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    background-color: gray;
+    color: white;
+} */
+
+/* Link this CSS file with the html to apply these styles */
+
+/* Target specific elements by id */
+/* #p1{
+    color:green;
+}
+#p2{
+    color:tomato;
+}
+#p3{
+    color:deeppink;
+} 
+#p4{
+    color:darkslateblue;
+} */
+
+/* Targeting objects within a Class (Group) */
+/* E.g. Odd numbered paragraphs=Red, Even numbered paragraphs=Blue*/
+
+/* .odd{
+    color: red;
+}
+.even{
+    color: blue;
+    font-family: ;
+} */
+
+/* ============================================================= */
+/* Fonts Styles */
+/* ============================================================= */
+/* body{
+    background-color: #111111;
+} */
+
+/* h1{
+    color: #110101;
+    font-family:"Press Start 2P", "consolas", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: 12px;
+} */
+/* It's a good practice to list more than one fonts in case one doesn't work */
+/* #p1{
+    color: #6ca2ed;
+    font-family: "Roboto Condensed", "consolas", sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
+} */
+/* #p2{
+    color: #06dbe7;
+    font-family: "Roboto Condensed", "consolas", sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
+} */
+
+
+/* ============================================================= */
+/* Customizing Borders */
+/* ============================================================= */
+/* h1{
+    background-color: grey;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 20px;
+    border-left-color: rgba(2, 208, 226, 0.16)
+} */
+
+/* border radius for making border edges curved */
+/* padding is for spacing between letters and border */
+/* p{
+    border-style:outset; 
+    border-width: 5px;
+    border-color: rgba(172, 165, 126, 0.538);
+    border-radius: 10px;
+    padding: 5px;
+}  */
+
+/* =============================================================  */
+/* Background Images  */
+/* ============================================================= */
+/* set background-repeat to no-repeat */
+/* body{
+    background-image: url("/css/images/Ojota_Pedestrian_bridge_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+} */
+
+/* h1{
+    background: linear-gradient( to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+/* p{
+    background: linear-gradient( to left, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+/* =============================================================  */
+/* Margins  */
+/* ============================================================= */
+body{
+    margin: 0px;
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: blue;
+}

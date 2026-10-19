@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OnohLabs</title>
+</head>
+<body>
+
+    <input type="text" id="username" placeholder="username" style="background-color: red; color: aliceblue; font-style: italic; font-size: 20px;">
+
+    <script>
+        let inputBox = document.getElementById("username");
+
+        //retunr the value of the background color
+        console.log(inputBox.style.backgroundColor)
+
+        // set CSS properties
+        inputBox.style.padding = "10px";
+        inputBox.style.cssText = "width:200px"; // overrides existing inline CSS
+        // or concatenate properties using (+=)
+        inputBox.style.cssText += "width:200px"; 
+        console.log(inputBox)
+    </script>
+
+</body>
+</html>
