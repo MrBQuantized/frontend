@@ -18,7 +18,8 @@ A personal collection of frontend practice exercises and experiments covering th
 ├── typescript/     # TypeScript exercises & projects
 ├── .vscode/        # Editor configuration
 ├── package.json    # Project metadata / dependencies
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ## 🎯 Purpose
